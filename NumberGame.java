@@ -18,7 +18,7 @@ public class NumberGame {
             int attempts = 7;
 
             System.out.println("\nChoose Difficulty Level:");
-            System.out.println("1. Easy (1 to 50, 10 attempts)");
+            System.out.println("1. Easy (1 to 50, 4 attempts)");
             System.out.println("2. Medium (1 to 100, 7 attempts)");
             System.out.println("3. Hard (1 to 200, 5 attempts)");
             System.out.print("Enter your choice: ");
@@ -28,7 +28,7 @@ public class NumberGame {
             switch (choice) {
                 case 1:
                     maxNumber = 50;
-                    attempts = 10;
+                    attempts = 4;
                     break;
                 case 2:
                     maxNumber = 100;
